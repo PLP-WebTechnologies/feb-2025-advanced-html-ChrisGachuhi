@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML5 elements used: lists, tables, forms, and multimedia">
+    <title>Chris John | Assignment</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Introduction to HTML5</li>
+        <li>Using Multimedia Elements</li>
+        <li>Working with Forms and Inputs</li>
+        <li>Creating Tables</li>
+        <li>Enhancing User Experience</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Professionals at work" width="500">
+
+    <!-- Contact Table -->
+    <h2>Contacts Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St, NY</td>
+            <td>+254 712 345 678</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Oak St, CA</td>
+            <td>+254 712 345 678</td>
+            <td>jane@example.com</td>
+        </tr>
+        <tr>
+            <td>Michael Johnson</td>
+            <td>789 Pine St, TX</td>
+            <td>+254 712 345 678</td>
+            <td>michael@example.com</td>
+        </tr>
+        <tr>
+            <td>Emily Brown</td>
+            <td>321 Birch St, FL</td>
+            <td>+254 712 345 678</td>
+            <td>emily@example.com</td>
+        </tr>
+        <tr>
+            <td>David Wilson</td>
+            <td>567 Maple St, WA</td>
+            <td>+254 712 345 678</td>
+            <td>david@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label>Membership Type:</label>
+        <input type="radio" id="basic" name="membership" value="basic" required>
+        <label for="basic">Basic</label>
+
+        <input type="radio" id="premium" name="membership" value="premium">
+        <label for="premium">Premium</label>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="webdev" name="interests" value="webdev">
+        <label for="webdev">Web Development</label>
+
+        <input type="checkbox" id="design" name="interests" value="design">
+        <label for="design">Graphic Design</label>
+
+        <input type="checkbox" id="seo" name="interests" value="seo">
+        <label for="seo">SEO Optimization</label>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Audio & Video</h2>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <video controls width="500">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
